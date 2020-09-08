@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+.explore-page {
+  margin-top: 50px;
+  .navigation-buttons {
+    .nav-button {
+      height: 56px;
+      margin-right: 15px;
+      background: transparent;
+      border: 1px solid rgba($whiteFirstLayer, 0.6);
+      border-radius: 4px;
+      color: $whiteFirstLayer;
+      padding: 0 40px 0 8px;
+    }
+  }
+  .new-albums {
+    position: relative;
+    margin-top: 80px;
+    &:first-of-type {
+      margin-top: 30px;
+    }
+    .heading {
+      font-size: 28px;
+      font-family: "YtSans", sans-serif;
+      color: rgba($whiteFirstLayer, 1);
+      display: inline-block;
+    }
+    .seeAll {
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 15px;
+      margin-left: 15px;
+      color: rgba($whiteFirstLayer, 0.6);
+      font-family: "Roboto", sans-serif;
+    }
+    .section-content {
+      margin-top: 10px;
+      display: flex;
+      position: relative;
+      height: 100%;
+      width: 100%;
+
+      flex-wrap: wrap;
+      .MuiPaper-root {
+        background: transparent !important;
+        width: 180px;
+      }
+      .MuiCardMedia-img {
+        width: 100%;
+        display: block;
+        -webkit-transition: 800ms;
+        -o-transition: 800ms;
+        transition: 800ms;
+        border-radius: 5px;
+        position: relative;
+      }
+
+      .song-name {
+        width: 180px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: "Roboto", sans-serif;
+        color: $whiteFirstLayer;
+        padding: 10px 0 0px;
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+    .hover-overlay,
+    .overlay {
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 0.5rem;
+      height: 190px !important;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      -webkit-transition: 800ms;
+      -o-transition: 800ms;
+      transition: 800ms;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0);
+      opacity: 1;
+    }
+    .play,
+    .play-playlist {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .MuiSvgIcon-root {
+        margin: auto;
+        width: 2em;
+        height: 2em;
+        color: $whiteFirstLayer;
+      }
+    }
+    .play-playlist {
+      height: 100%;
+      max-width: 190px;
+      max-height: 190px;
+    }
+    .play {
+      opacity: 0;
+      -webkit-transition: 800ms;
+      -o-transition: 800ms;
+      transition: 800ms;
+    }
+
+    .parent:hover .hover-overlay {
+      opacity: 1;
+    }
+    .parent:hover .play {
+      opacity: 1;
+    }
+    .home-section {
+      position: relative;
+      margin-top: 70px;
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+    .trending-card {
+      flex: 0 0 48%;
+      max-width: 48%;
+      margin: 5px 0;
+      img {
+        max-height: 270px;
+      }
+    }
+    .space {
+      flex: 0 0 1%;
+      max-width: 1%;
+    }
+    .left-scroll,
+    .right-scroll {
+      color: $backgroundColor;
+      cursor: pointer;
+      background: $whiteFirstLayer;
+      padding: 20px;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 99;
+      .MuiSvgIcon-root {
+        height: 0.8em;
+        width: 0.8em;
+      }
+    }
+    .right-scroll {
+      position: absolute;
+      right: -10px;
+      bottom: 0;
+      top: 50%;
+    }
+    .left-scroll {
+      position: absolute;
+      left: -10px;
+      bottom: 0;
+      top: 50%;
+    }
+    .playlist {
+      .MuiCardMedia-img {
+        max-width: 190px !important;
+        max-height: 190px !important;
+        border-radius: 10px;
+      }
+      .song-name {
+        width: 190px !important;
+      }
+      .type {
+        font-family: "Roboto", sans-serif;
+        color: $whiteFourthLayer;
+        padding: 0px 0;
+        font-weight: 500;
+        font-size: 14px;
+      }
+      .MuiPaper-root {
+        width: 190px;
+      }
+    }
+    .bottom-details {
+      font-family: "Roboto", sans-serif;
+      color: $whiteFourthLayer;
+      padding: 0px 0;
+      font-weight: 500;
+      font-size: 14px;
+      display: flex;
+      .artist {
+        &::before {
+          content: "\00a0 •\00a0";
+        }
+      }
+    }
+    .playlist-content {
+      position: relative;
+      overflow-x: auto;
+      white-space: nowrap;
+      height: 100%;
+      -webkit-transform: scale(0.98);
+      transform: scale(0.98);
+      will-change: transform;
+      flex-wrap: nowrap;
+    }
+  }
+
+  .mood-and-genres {
+    position: relative;
+    margin-top: 80px;
+    .heading {
+      font-size: 28px;
+      font-family: "YtSans", sans-serif;
+      color: rgba($whiteFirstLayer, 1);
+      display: inline-block;
+    }
+    .seeAll {
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 15px;
+      margin-left: 15px;
+      color: rgba($whiteFirstLayer, 0.6);
+      font-family: "Roboto", sans-serif;
+    }
+    .left-scroll,
+    .right-scroll {
+      color: $backgroundColor;
+      cursor: pointer;
+      background: $whiteFirstLayer;
+      padding: 20px;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 99;
+      .MuiSvgIcon-root {
+        height: 0.8em;
+        width: 0.8em;
+      }
+    }
+    .right-scroll {
+      position: absolute;
+      margin: auto;
+      right: -10px;
+      bottom: 0;
+      top: 30px;
+    }
+    .left-scroll {
+      position: absolute;
+      left: -10px;
+      bottom: 0;
+      margin: auto;
+      top: 30px;
+    }
+    .section-content {
+      display: flex;
+      overflow-y: hidden;
+      .card-area {
+        height: 48px;
+        width: 190px;
+        background-color: $lightDarkColor;
+        margin: 10px;
+        display: flex;
+        position: relative;
+        border-radius: 5px;
+        .left-strip {
+          border-radius: 5px 0 0 5px;
+          width: 5px;
+          height: 100%;
+        }
+        .main-card {
+          display: flex;
+          align-items: center;
+          padding: 0 10px;
+          color: rgba($whiteFirstLayer, 1);
+          font-size: 14px;
+          font-weight: 600;
+          font-family: "Roboto", sans-serif;
+        }
+      }
+    }
+  }
+  .trending {
+    .left-scroll,
+    .right-scroll {
+      top: 55%;
+    }
+    .trending-card {
+      // display: ;
+      flex: none;
+      max-width: none;
+    }
+    .section-content {
+      .MuiPaper-root {
+        height: 180px;
+        width: 345px;
+      }
+      .MuiCardMedia-img {
+        width: auto;
+        width: 345px;
+        height: 180px;
+      }
+    }
+    .trendingTracks {
+      .parent {
+        .overlay,
+        .hover-overlay {
+          height: 100% !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .explore-page {
+    .new-albums {
+      margin-top: 40px !important;
+      &:first-of-type {
+        margin-top: 0px !important;
+      }
+      .heading {
+        margin-top: 0px !important;
+      }
+    }
+    .mood-and-genres {
+      margin-top: 40px !important;
+    }
+  }
+}

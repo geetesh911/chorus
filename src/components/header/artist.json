@@ -1,0 +1,650 @@
+{
+  "description": "Akhil Sachdeva is an Indian musician, singer and composer. His song Humsafar was featured in the Bollywood film Badrinath Ki Dulhania.\nIn 2009, Sachdeva started as the lead vocalist of the Delhi-based music band, Nasha. His Bollywood journey started when he happened to meet Shashank Khaitan, the director of the film, at his friend Huma Qureshi's Eid dinner. His new song from the film Kabir Singh is out and it has garnered a fantastic response worldwide. He is currently managed by Mourjo Chatterjee",
+  "views": null,
+  "name": "Akhil Sachdeva",
+  "thumbnails": [
+    {
+      "url": "https://lh3.googleusercontent.com/EeWgy9fDtZBNK6TnW9k0-NZZK6n3JlC8eUTXaRaVxVZLlqtlzDbbeQMh0LTG0Wj5Wr8OQcv1Dt8lslX5=w540-h225-p-l90-rj",
+      "width": 540,
+      "height": 225
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/EeWgy9fDtZBNK6TnW9k0-NZZK6n3JlC8eUTXaRaVxVZLlqtlzDbbeQMh0LTG0Wj5Wr8OQcv1Dt8lslX5=w816-h340-p-l90-rj",
+      "width": 816,
+      "height": 340
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/EeWgy9fDtZBNK6TnW9k0-NZZK6n3JlC8eUTXaRaVxVZLlqtlzDbbeQMh0LTG0Wj5Wr8OQcv1Dt8lslX5=w1400-h583-p-l90-rj",
+      "width": 1400,
+      "height": 583
+    }
+  ],
+  "songs": {
+    "browseId": "VLPL4zEV1SBzcvgfE2dYmIUzeYHoYT8b5e3d",
+    "results": [
+      {
+        "videoId": "39BOqZO8xaM",
+        "title": "Tera Ban Jaunga",
+        "artists": [
+          {
+            "name": "Akhil Sachdeva",
+            "id": "UC3Tod7_s2yD25gGvaqp77hA"
+          },
+          {
+            "name": "Tulsi Kumar",
+            "id": "UCzJRkr4MuVD7sEGHR_zRSEQ"
+          }
+        ],
+        "album": {
+          "name": "Kabir Singh",
+          "id": "MPREb_RcOqUyfS2Bi"
+        },
+        "likeStatus": "INDIFFERENT",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/loAKTa9XpvZzV-TORspRPC978Kk_u2l6tYlHTHm-sYfwjmKsJdShoxbmLoPKoq9eZgq-uzpoRPtqEWX09w=w60-h60-l90-rj",
+            "width": 60,
+            "height": 60
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/loAKTa9XpvZzV-TORspRPC978Kk_u2l6tYlHTHm-sYfwjmKsJdShoxbmLoPKoq9eZgq-uzpoRPtqEWX09w=w120-h120-l90-rj",
+            "width": 120,
+            "height": 120
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/loAKTa9XpvZzV-TORspRPC978Kk_u2l6tYlHTHm-sYfwjmKsJdShoxbmLoPKoq9eZgq-uzpoRPtqEWX09w=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/loAKTa9XpvZzV-TORspRPC978Kk_u2l6tYlHTHm-sYfwjmKsJdShoxbmLoPKoq9eZgq-uzpoRPtqEWX09w=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ]
+      },
+      {
+        "videoId": "Aokj-w3COw0",
+        "title": "Humsafar",
+        "artists": [
+          {
+            "name": "Akhil Sachdeva",
+            "id": "UC3Tod7_s2yD25gGvaqp77hA"
+          }
+        ],
+        "album": {
+          "name": "Badrinath Ki Dulhania",
+          "id": "MPREb_Yq7gsZiAVcB"
+        },
+        "likeStatus": "INDIFFERENT",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/Evq-XruJSpUsWbYf7Exc68b2DJXBEMiIAIy5iCbS9UK36KhEs8jdbij6kC4To0mulc6wIgvVN6Qh-dEM=w60-h60-l90-rj",
+            "width": 60,
+            "height": 60
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/Evq-XruJSpUsWbYf7Exc68b2DJXBEMiIAIy5iCbS9UK36KhEs8jdbij6kC4To0mulc6wIgvVN6Qh-dEM=w120-h120-l90-rj",
+            "width": 120,
+            "height": 120
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/Evq-XruJSpUsWbYf7Exc68b2DJXBEMiIAIy5iCbS9UK36KhEs8jdbij6kC4To0mulc6wIgvVN6Qh-dEM=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/Evq-XruJSpUsWbYf7Exc68b2DJXBEMiIAIy5iCbS9UK36KhEs8jdbij6kC4To0mulc6wIgvVN6Qh-dEM=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ]
+      },
+      {
+        "videoId": "epm7tAtEvYA",
+        "title": "Channa Ve (From \"Bhoot - Part One: The Haunted Ship\")",
+        "artists": [
+          {
+            "name": "Akhil Sachdeva , Mansheel Gujral",
+            "id": "UC3Tod7_s2yD25gGvaqp77hA"
+          }
+        ],
+        "album": {
+          "name": "Channa Ve (From \"Bhoot - Part One: The Haunted Ship\")",
+          "id": "MPREb_BvgkiKYTo5d"
+        },
+        "likeStatus": "INDIFFERENT",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/4pG8iUj_Vr3keRUZ-GVrfeGT0BJMj5qgYR1iVo7-2KNaTIscalApiqYY7tndr94A6uz2MtLZ-rF68YLdOQ=w60-h60-l90-rj",
+            "width": 60,
+            "height": 60
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/4pG8iUj_Vr3keRUZ-GVrfeGT0BJMj5qgYR1iVo7-2KNaTIscalApiqYY7tndr94A6uz2MtLZ-rF68YLdOQ=w120-h120-l90-rj",
+            "width": 120,
+            "height": 120
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/4pG8iUj_Vr3keRUZ-GVrfeGT0BJMj5qgYR1iVo7-2KNaTIscalApiqYY7tndr94A6uz2MtLZ-rF68YLdOQ=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/4pG8iUj_Vr3keRUZ-GVrfeGT0BJMj5qgYR1iVo7-2KNaTIscalApiqYY7tndr94A6uz2MtLZ-rF68YLdOQ=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ]
+      },
+      {
+        "videoId": "rcG3HLaPzso",
+        "title": "O Jaanwaale",
+        "artists": [
+          {
+            "name": "Akhil Sachdeva",
+            "id": "UC3Tod7_s2yD25gGvaqp77hA"
+          }
+        ],
+        "album": {
+          "name": "O Jaanwaale",
+          "id": "MPREb_r5tnkspRi81"
+        },
+        "likeStatus": "INDIFFERENT",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/EHFOJKIrEhntfICI_L_dSlBn3qhM-0dGHeJUVE7ohE7t08VJa-zk3Vsn_8RksdJfESR4olqQ7huPFMtR9w=w60-h60-l90-rj",
+            "width": 60,
+            "height": 60
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/EHFOJKIrEhntfICI_L_dSlBn3qhM-0dGHeJUVE7ohE7t08VJa-zk3Vsn_8RksdJfESR4olqQ7huPFMtR9w=w120-h120-l90-rj",
+            "width": 120,
+            "height": 120
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/EHFOJKIrEhntfICI_L_dSlBn3qhM-0dGHeJUVE7ohE7t08VJa-zk3Vsn_8RksdJfESR4olqQ7huPFMtR9w=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/EHFOJKIrEhntfICI_L_dSlBn3qhM-0dGHeJUVE7ohE7t08VJa-zk3Vsn_8RksdJfESR4olqQ7huPFMtR9w=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ]
+      },
+      {
+        "videoId": "96QlVTYpOlI",
+        "title": "O Saajna",
+        "artists": [
+          {
+            "name": "Akhil Sachdeva",
+            "id": "UC3Tod7_s2yD25gGvaqp77hA"
+          }
+        ],
+        "album": {
+          "name": "O Saajna (From \"Broken But Beautiful Season 2\")",
+          "id": "MPREb_jilPSu4Q1r1"
+        },
+        "likeStatus": "INDIFFERENT",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/D2wCEx60nElYPdgEebRsvwP6i03n2gz-Ru487Qzpr_rQSWoCCzAmuJLnU9tCwwqfWbSawgzPo_5vOyinlg=w60-h60-l90-rj",
+            "width": 60,
+            "height": 60
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/D2wCEx60nElYPdgEebRsvwP6i03n2gz-Ru487Qzpr_rQSWoCCzAmuJLnU9tCwwqfWbSawgzPo_5vOyinlg=w120-h120-l90-rj",
+            "width": 120,
+            "height": 120
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/D2wCEx60nElYPdgEebRsvwP6i03n2gz-Ru487Qzpr_rQSWoCCzAmuJLnU9tCwwqfWbSawgzPo_5vOyinlg=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/D2wCEx60nElYPdgEebRsvwP6i03n2gz-Ru487Qzpr_rQSWoCCzAmuJLnU9tCwwqfWbSawgzPo_5vOyinlg=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ]
+      }
+    ]
+  },
+  "albums": {
+    "browseId": null,
+    "results": [
+      {
+        "title": "Broken But Beautiful Season 2",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/EeWgy9fDtZBNK6TnW9k0-NZZK6n3JlC8eUTXaRaVxVZLlqtlzDbbeQMh0LTG0Wj5Wr8OQcv1Dt8lslX5=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/EeWgy9fDtZBNK6TnW9k0-NZZK6n3JlC8eUTXaRaVxVZLlqtlzDbbeQMh0LTG0Wj5Wr8OQcv1Dt8lslX5=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2020",
+        "browseId": "MPREb_5SoqzejKGAJ"
+      },
+      {
+        "title": "Badrinath Ki Dulhania",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/Evq-XruJSpUsWbYf7Exc68b2DJXBEMiIAIy5iCbS9UK36KhEs8jdbij6kC4To0mulc6wIgvVN6Qh-dEM=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/Evq-XruJSpUsWbYf7Exc68b2DJXBEMiIAIy5iCbS9UK36KhEs8jdbij6kC4To0mulc6wIgvVN6Qh-dEM=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2017",
+        "browseId": "MPREb_Yq7gsZiAVcB"
+      },
+      {
+        "title": "Nasha",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/ZxL79xQJAShafnSdN7HARsn6ke-n4IJrjQlu0aPot_-ra9B6CJdibrWyLoDMIlRsQLxhlIvK8yvXz8_5=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/ZxL79xQJAShafnSdN7HARsn6ke-n4IJrjQlu0aPot_-ra9B6CJdibrWyLoDMIlRsQLxhlIvK8yvXz8_5=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2011",
+        "browseId": "MPREb_voFYFisrRzo"
+      },
+      {
+        "title": "Best Of Akhil Sachdeva",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/-xPA3lWWZbt3ISeFU9PhLB1dbqYtcvBi9yKFkUwWltQ9aoCxNToe_eQ2kRty8UYWdxi4z-mTltiaaq3r=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/-xPA3lWWZbt3ISeFU9PhLB1dbqYtcvBi9yKFkUwWltQ9aoCxNToe_eQ2kRty8UYWdxi4z-mTltiaaq3r=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2019",
+        "browseId": "MPREb_NhBojiPAvPL"
+      }
+    ]
+  },
+  "singles": {
+    "browseId": "UC3Tod7_s2yD25gGvaqp77hA",
+    "results": [
+      {
+        "title": "O Jaanwaale",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/EHFOJKIrEhntfICI_L_dSlBn3qhM-0dGHeJUVE7ohE7t08VJa-zk3Vsn_8RksdJfESR4olqQ7huPFMtR9w=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/EHFOJKIrEhntfICI_L_dSlBn3qhM-0dGHeJUVE7ohE7t08VJa-zk3Vsn_8RksdJfESR4olqQ7huPFMtR9w=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2020",
+        "browseId": "MPREb_r5tnkspRi81"
+      },
+      {
+        "title": "Tulsi Kumar Mashup",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/sfX_YNH9-DEQyQ9bTk3d8dVs0o-IjrQWIW7yMwogtR3fTF30JvwEIbPApXAeSjBQE3cygvEq2dryhmE=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/sfX_YNH9-DEQyQ9bTk3d8dVs0o-IjrQWIW7yMwogtR3fTF30JvwEIbPApXAeSjBQE3cygvEq2dryhmE=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2020",
+        "browseId": "MPREb_LspM3dSjdAg"
+      },
+      {
+        "title": "Sukoon (From \"It Happened in Calcutta\")",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/oGfwya3Ibfk6kXek7Hh_kONcXcz3UgoJQ3azvA8IAWKlWOzu_M37hBDUv3r_mqb-zpjfCSUI8aUzge3U=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/oGfwya3Ibfk6kXek7Hh_kONcXcz3UgoJQ3azvA8IAWKlWOzu_M37hBDUv3r_mqb-zpjfCSUI8aUzge3U=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2020",
+        "browseId": "MPREb_9GUHuaAVV0b"
+      },
+      {
+        "title": "Channa Ve (From \"Bhoot - Part One: The Haunted Ship\")",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/4pG8iUj_Vr3keRUZ-GVrfeGT0BJMj5qgYR1iVo7-2KNaTIscalApiqYY7tndr94A6uz2MtLZ-rF68YLdOQ=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/4pG8iUj_Vr3keRUZ-GVrfeGT0BJMj5qgYR1iVo7-2KNaTIscalApiqYY7tndr94A6uz2MtLZ-rF68YLdOQ=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2020",
+        "browseId": "MPREb_BvgkiKYTo5d"
+      },
+      {
+        "title": "Rondi Ankhiyaan (From \"Dil Hi Toh Hai Season 3\")",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/Id_S7ZX0VZKWTbr1IsIkIXcac_6oWBjnE7xvAWi2FERt2rZ04vtVW-OhI4nejFcwBuMukvJ6SJHLioU=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/Id_S7ZX0VZKWTbr1IsIkIXcac_6oWBjnE7xvAWi2FERt2rZ04vtVW-OhI4nejFcwBuMukvJ6SJHLioU=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2020",
+        "browseId": "MPREb_VpghffOStFJ"
+      },
+      {
+        "title": "Chan Kitthan-Mere Sohneya (From \"T-Series Mixtape Punjabi Season 2\")",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/KJqbxC8RNgt6RFrCeL58ujeckXrPEr50jcr1i6zG29MW4iSlX1Ou0DahZWvYBIL-1NKjIqZnZGSu-Z3U=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/KJqbxC8RNgt6RFrCeL58ujeckXrPEr50jcr1i6zG29MW4iSlX1Ou0DahZWvYBIL-1NKjIqZnZGSu-Z3U=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2019",
+        "browseId": "MPREb_YqXduF1NYh3"
+      },
+      {
+        "title": "O Saajna (From \"Broken But Beautiful Season 2\")",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/D2wCEx60nElYPdgEebRsvwP6i03n2gz-Ru487Qzpr_rQSWoCCzAmuJLnU9tCwwqfWbSawgzPo_5vOyinlg=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/D2wCEx60nElYPdgEebRsvwP6i03n2gz-Ru487Qzpr_rQSWoCCzAmuJLnU9tCwwqfWbSawgzPo_5vOyinlg=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2019",
+        "browseId": "MPREb_jilPSu4Q1r1"
+      },
+      {
+        "title": "Tera Ban Jaunga Remix",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/8tMhWGLiSLZi2OreTFnM-NKPqtFtRVggpogvXBmvDDK2iSpj9etTWNaRw8bahoE_D6sPTgrATF09R8FD=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/8tMhWGLiSLZi2OreTFnM-NKPqtFtRVggpogvXBmvDDK2iSpj9etTWNaRw8bahoE_D6sPTgrATF09R8FD=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2019",
+        "browseId": "MPREb_nR0wPiGOmCI"
+      },
+      {
+        "title": "Tera Ban Jaunga Reprise (From \"T-Series Acoustics\")",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/tMBcBFOVjatd6hnCCcu3LCv0n8FqeU3a4LjB5tOI0heE8dGtEKoYUWhU6W9bI996T_3LENhagbiP7png=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/tMBcBFOVjatd6hnCCcu3LCv0n8FqeU3a4LjB5tOI0heE8dGtEKoYUWhU6W9bI996T_3LENhagbiP7png=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2019",
+        "browseId": "MPREb_AVQQJULMfkB"
+      },
+      {
+        "title": "Aaoge Jab Tum-Jag Soona Soona (From \"T-Series Mixtape Season 2\")",
+        "thumbnails": [
+          {
+            "url": "https://lh3.googleusercontent.com/SNqh2P6c3hGFAAyAI-FXdUn6rJvcK8TokpujVpwsjyZY0-hpegqzhVHnzlfzQHXDSUDokL1qUnpXkWE=w226-h226-l90-rj",
+            "width": 226,
+            "height": 226
+          },
+          {
+            "url": "https://lh3.googleusercontent.com/SNqh2P6c3hGFAAyAI-FXdUn6rJvcK8TokpujVpwsjyZY0-hpegqzhVHnzlfzQHXDSUDokL1qUnpXkWE=w544-h544-l90-rj",
+            "width": 544,
+            "height": 544
+          }
+        ],
+        "year": "2019",
+        "browseId": "MPREb_4fRmH12BUP2"
+      }
+    ],
+    "params": "6gPUAUNwd0JDbjBLYmdBQVpXNEFBVVJGQUFGSlRnQUJBRVpGYlhWemFXTmZaR1YwWVdsc1gyRnlkR2x6ZEFBQkFBQUJBQUFBQUFFQUFRQUFBUUVJdkFNYUdGVkRNMVJ2WkRkZmN6SjVSREkxWjBkMllYRndOemRvUVlJQkdGVkRNMVJ2WkRkZmN6SjVSREkxWjBkMllYRndOemRvUVFBQkVKU283Y1dJdS1vQ0dnSnphUmdBS2c5aGNuUnBjM1JmY21Wc1pXRnpaWE13c2RUUTVaZnh5Zkp3"
+  },
+  "videos": {
+    "browseId": "VLPL4zEV1SBzcvj7Ss1LbSiAS7f3tebFkGid",
+    "results": [
+      {
+        "title": "Tera Ban Jaunga (From \"Kabir Singh\")",
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/Qdz5n1Xe5Qo/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3mzFDRsFPhzjbEqnTB1pOFALIiaYg",
+            "width": 400,
+            "height": 225
+          },
+          {
+            "url": "https://i.ytimg.com/vi/Qdz5n1Xe5Qo/hq720.jpg?sqp=-oaymwEXCKAGEMIDIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3my5mcdgrjnXJ0lHk7CVHg72zklDQ",
+            "width": 800,
+            "height": 450
+          }
+        ],
+        "views": "Tulsi",
+        "videoId": "Qdz5n1Xe5Qo",
+        "playlistId": "PL4zEV1SBzcvj7Ss1LbSiAS7f3tebFkGid"
+      },
+      {
+        "title": "Humsafar (From \"Badrinath Ki Dulhania\")",
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/8v-TWxPWIWc/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3m5EEwxvFz_Dq8qc8livP1m9eyHlw",
+            "width": 400,
+            "height": 225
+          },
+          {
+            "url": "https://i.ytimg.com/vi/8v-TWxPWIWc/hq720.jpg?sqp=-oaymwEXCKAGEMIDIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3lnihva9BD1plUcjpvjKfeGeOyaGg",
+            "width": 800,
+            "height": 450
+          }
+        ],
+        "views": "Mansheel",
+        "videoId": "8v-TWxPWIWc",
+        "playlistId": "PL4zEV1SBzcvj7Ss1LbSiAS7f3tebFkGid"
+      },
+      {
+        "title": "Teri Ban Jaungi Reprise (From \"T-Series Acoustics\")",
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/_LImU3IJefk/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3nwXu7H0t6w7ROhjeRmnNOLwaY50Q",
+            "width": 400,
+            "height": 225
+          },
+          {
+            "url": "https://i.ytimg.com/vi/_LImU3IJefk/hq720.jpg?sqp=-oaymwEXCKAGEMIDIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3kK19Qf-0ajWgg98NBQSm6v8ezd8g",
+            "width": 800,
+            "height": 450
+          }
+        ],
+        "views": "Akhil",
+        "videoId": "_LImU3IJefk",
+        "playlistId": "PL4zEV1SBzcvj7Ss1LbSiAS7f3tebFkGid"
+      },
+      {
+        "title": "Channa Ve",
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/se9DDAwwGQY/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3mt_s4EdUijybRSqQMbDTzMTF0rGA",
+            "width": 400,
+            "height": 225
+          },
+          {
+            "url": "https://i.ytimg.com/vi/se9DDAwwGQY/hq720.jpg?sqp=-oaymwEXCKAGEMIDIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3lwohpoBIxFtFvlpRGyZ7XWzkOc7w",
+            "width": 800,
+            "height": 450
+          }
+        ],
+        "views": "Mansheel",
+        "videoId": "se9DDAwwGQY",
+        "playlistId": "PL4zEV1SBzcvj7Ss1LbSiAS7f3tebFkGid"
+      },
+      {
+        "title": "Humsafar| Alia Bhatt Version| Song with lyrics",
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/JdfIhYQX5RY/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3m6xGAclhyj31kQNm2oy0fp8pb37w",
+            "width": 400,
+            "height": 225
+          },
+          {
+            "url": "https://i.ytimg.com/vi/JdfIhYQX5RY/hq720.jpg?sqp=-oaymwEXCKAGEMIDIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3lrd3qyrFulsaJ8IGqLj-HgzewbOg",
+            "width": 800,
+            "height": 450
+          }
+        ],
+        "views": "812K",
+        "videoId": "JdfIhYQX5RY",
+        "playlistId": "PL4zEV1SBzcvj7Ss1LbSiAS7f3tebFkGid"
+      },
+      {
+        "title": "O Jaanwaale",
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/Mi9aM2HaY3I/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kvpukJ3gNCnCEwaGFLOZHk0lsm_w",
+            "width": 400,
+            "height": 225
+          },
+          {
+            "url": "https://i.ytimg.com/vi/Mi9aM2HaY3I/hq720.jpg?sqp=-oaymwEXCKAGEMIDIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3nuNRG91sVvV5j6PWUpuRdkiU9uvQ",
+            "width": 800,
+            "height": 450
+          }
+        ],
+        "views": "11M",
+        "videoId": "Mi9aM2HaY3I",
+        "playlistId": "PL4zEV1SBzcvj7Ss1LbSiAS7f3tebFkGid"
+      },
+      {
+        "title": "Broken But Beautiful | Season 2 - Audio Jukebox | Vikrant Massey & Harleen Sethi",
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/EW6Q0-NTOeE/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3n9Im1km_i8Huoq4LsIEKI1F5rkdQ",
+            "width": 400,
+            "height": 225
+          },
+          {
+            "url": "https://i.ytimg.com/vi/EW6Q0-NTOeE/hq720.jpg?sqp=-oaymwEXCKAGEMIDIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3neV71GlOrmHL4V2ckobBKP9nZt9A",
+            "width": 800,
+            "height": 450
+          }
+        ],
+        "views": "136K",
+        "videoId": "EW6Q0-NTOeE",
+        "playlistId": "PL4zEV1SBzcvj7Ss1LbSiAS7f3tebFkGid"
+      },
+      {
+        "title": "Dua Ban Ja",
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/6RbXlcoyr5Q/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3mfjbaTnWJ0UP56p2m7CuZQZK1B3A",
+            "width": 400,
+            "height": 225
+          },
+          {
+            "url": "https://i.ytimg.com/vi/6RbXlcoyr5Q/hq720.jpg?sqp=-oaymwEXCKAGEMIDIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3mpQQJnX50Od_fsX9MG7d0lmk2bPg",
+            "width": 800,
+            "height": 450
+          }
+        ],
+        "views": "Akhil",
+        "videoId": "6RbXlcoyr5Q",
+        "playlistId": "PL4zEV1SBzcvj7Ss1LbSiAS7f3tebFkGid"
+      },
+      {
+        "title": "Tera Ban Jaunga Reprise (From \"T-Series Acoustics\")",
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/sIlLdt0t9OA/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kI0hmgSAmuWVUvnekSj7s3k49tFw",
+            "width": 400,
+            "height": 225
+          },
+          {
+            "url": "https://i.ytimg.com/vi/sIlLdt0t9OA/hq720.jpg?sqp=-oaymwEXCKAGEMIDIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3ly5-xbTmu5ReIYXEfDJhxS16-gmQ",
+            "width": 800,
+            "height": 450
+          }
+        ],
+        "views": "4.3M",
+        "videoId": "sIlLdt0t9OA",
+        "playlistId": "PL4zEV1SBzcvj7Ss1LbSiAS7f3tebFkGid"
+      },
+      {
+        "title": "Tera Ban Jaunga Remix(Remix By Dj Yogii)",
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/D7DQ72P1qdM/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3maKlF-tVTg_OxjP79HO8sBRWHk2Q",
+            "width": 400,
+            "height": 225
+          },
+          {
+            "url": "https://i.ytimg.com/vi/D7DQ72P1qdM/hq720.jpg?sqp=-oaymwEXCKAGEMIDIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3mHKo57-Ay-sirkIsSPGByvwwE_pw",
+            "width": 800,
+            "height": 450
+          }
+        ],
+        "views": "Tulsi",
+        "videoId": "D7DQ72P1qdM",
+        "playlistId": "PL4zEV1SBzcvj7Ss1LbSiAS7f3tebFkGid"
+      }
+    ]
+  }
+}

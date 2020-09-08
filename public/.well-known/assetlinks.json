@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.luinek",
+      "sha256_cert_fingerprints": ["D0:EE:F3:35:D2:DC:8E:7C:E0:31:9E:A5:2D:82:50:AF:B3:04:44:63:F7:C5:05:8B:EB:E5:61:CE:CD:15:04:9D"]
+    }
+  }
+]

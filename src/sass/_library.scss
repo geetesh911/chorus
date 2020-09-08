@@ -1,0 +1,75 @@
+.library {
+  .history {
+    .album-section {
+      margin-bottom: 60px;
+      // padding: 0 20px;
+      .left-scroll {
+        left: 5px;
+      }
+      .right-scroll {
+        right: 5px;
+      }
+      .data {
+        .MuiPaper-root {
+          width: auto;
+          .MuiCardActionArea-root {
+            width: auto;
+          }
+        }
+        .parent {
+          width: auto;
+        }
+        .MuiCardMedia-img {
+          width: auto;
+          height: 100%;
+        }
+        .song-name {
+          width: 180px;
+        }
+      }
+    }
+  }
+  .tabHeader {
+    .MuiTabs-indicator {
+      background-color: $primaryColor;
+    }
+    .tabHeadingItems {
+      color: rgba($whiteFirstLayer, 0.6);
+    }
+  }
+  .tabBody {
+    .MuiBox-root {
+      padding: 24px 0;
+    }
+    .searchResults {
+      margin: 0;
+      .searchItem {
+        .thumbnail {
+          flex: 0 0 08%;
+          max-width: 08%;
+        }
+      }
+      .details {
+        font-size: 14px;
+      }
+    }
+  }
+  .MuiAppBar-colorDefault {
+    background: none;
+    // margin-top: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .library {
+    .searchResults {
+      margin-top: 0px !important;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .library {
+    .searchResults {
+      margin-top: 0px !important;
+    }
+  }
+}

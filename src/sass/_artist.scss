@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.artist-page {
+  margin-bottom: 0;
+  .module {
+    &::before {
+      background: linear-gradient(360deg, black 0.98%, rgba(0, 0, 0, 0) 20%);
+    }
+    .header {
+      position: absolute;
+      top: 45vh;
+      z-index: 9;
+      .title {
+        font-size: 28px;
+        font-family: "YtSans", sans-serif;
+        color: $whiteFirstLayer;
+      }
+      .description {
+        max-height: 40px;
+        margin-top: 10px;
+        overflow: hidden;
+        white-space: wrap;
+        text-overflow: ellipsis;
+        width: 60vw;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        color: $whiteFirstLayer;
+      }
+      .buttons-area-desktop {
+        display: flex;
+        margin-top: 1rem;
+        .shuffle-button {
+          padding: 7px 10px;
+          display: flex;
+          align-items: center;
+          color: $darkColor;
+          border-radius: 3px;
+          cursor: pointer;
+          background-color: rgba($whiteFirstLayer, 1);
+          margin-right: 10px;
+        }
+        .playAll-button {
+          cursor: pointer;
+          padding: 7px 18px 7px 10px;
+          border-radius: 3px;
+          border: 1px solid;
+          color: $whiteSecondLayer;
+          border-color: rgba($whiteFirstLayer, 1);
+        }
+      }
+    }
+  }
+}
+.content-area {
+  margin: 20px 0 100px;
+  overflow: auto;
+  .heading {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    font-family: "YtSans", sans-serif;
+    color: rgba($whiteFirstLayer, 1);
+  }
+  .songs {
+    overflow: hidden;
+    overflow-y: visible;
+    &::-webkit-scrollbar {
+      // display: none !important;
+      width: 0px;
+      height: 0px;
+      background: #202020;
+    }
+    .showAll {
+      background: transparent;
+      border: none;
+      outline: none;
+      color: rgba($whiteFirstLayer, 0.6);
+      font-size: 14px;
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+    .song {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      border-bottom: 1px solid rgba($whiteFirstLayer, 0.1);
+      // cursor: pointer;
+      &:last-of-type {
+        border-bottom: none;
+      }
+      .gap {
+        flex: 0 0 5%;
+        max-width: 5%;
+      }
+      .song-title {
+        flex: 0 0 30%;
+        max-width: 30%;
+        color: $whiteFirstLayer;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 600;
+      }
+      .song-artists-mob,
+      .song-album-mob {
+        display: none;
+      }
+      .song-artists {
+        flex: 0 0 30%;
+        max-width: 30%;
+        display: flex;
+        //   white-space: nowrap;
+        //   overflow: hidden;
+        //   text-overflow: ellipsis;
+        .song-artist {
+          color: rgba($whiteSecondLayer, 0.6);
+          &::after {
+            content: ", \00a0";
+          }
+          &:last-of-type {
+            &::after {
+              content: "" !important;
+            }
+          }
+        }
+      }
+      .more {
+        display: flex;
+        color: rgba($whiteFirstLayer, 1);
+        cursor: pointer;
+        position: relative;
+        // right: 20px;
+        flex: 0 0 5%;
+        max-width: 5%;
+      }
+      .moreMenu {
+        .menuButton {
+          color: rgba($whiteFirstLayer, 1);
+        }
+        .moreList {
+          background: rgba($darkColor, 1);
+        }
+        .menuBody {
+          position: absolute;
+          display: none;
+          padding: 10px 0;
+          left: -100px;
+          width: max-content;
+          border-radius: 5px;
+          // width: 200px;
+          background: rgba($darkColor, 1);
+          color: rgba($whiteFirstLayer, 0.6);
+          z-index: 8;
+          ul {
+            padding: 0;
+            margin-bottom: 0;
+            li {
+              span {
+                margin-right: 10px;
+              }
+              list-style: none;
+              padding: 10px 20px;
+              &:hover {
+                background-color: rgba($darkBackgroundColor, 1);
+              }
+            }
+          }
+        }
+      }
+      .song-album {
+        flex: 0 0 25%;
+        max-width: 25%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: rgba($whiteSecondLayer, 0.6);
+      }
+      .song-thumbnail {
+        flex: 0 0 5%;
+        max-width: 5%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+        img {
+          width: 32px;
+          border-radius: 3px;
+        }
+        .thumbnail-overlay {
+          border-radius: 5px;
+          opacity: 0;
+          position: absolute;
+          top: 0;
+          width: 32px;
+          height: 100%;
+          text-align: center;
+          background: rgba($darkColor, 0.5);
+          color: rgba($whiteFirstLayer, 1);
+          display: flex;
+          align-items: center;
+          svg {
+            margin: 0 auto;
+            height: 24px;
+          }
+        }
+        .volume-overlay,
+        .paused-overlay {
+          opacity: 1;
+        }
+      }
+      &:hover {
+        .song-thumbnail {
+          .thumbnail-overlay {
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+
+  .album-section {
+    margin-top: 50px;
+    position: relative;
+    // height: 250px;
+    .left-scroll,
+    .right-scroll {
+      color: $backgroundColor;
+      cursor: pointer;
+      background: $whiteFirstLayer;
+      padding: 20px;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 99;
+      .MuiSvgIcon-root {
+        height: 0.8em;
+        width: 0.8em;
+      }
+    }
+    .right-scroll {
+      position: absolute;
+      right: -10px;
+      bottom: 0;
+      top: 45%;
+    }
+    .left-scroll {
+      position: absolute;
+      left: -10px;
+      bottom: 0;
+      top: 45%;
+    }
+    .data {
+      display: flex;
+      position: relative;
+      height: 100%;
+      width: 100%;
+      flex-wrap: wrap;
+      position: relative;
+      overflow-x: auto;
+      white-space: nowrap;
+      height: 100%;
+      -webkit-transform: scale(0.98);
+      transform: scale(0.98);
+      will-change: transform;
+      flex-wrap: nowrap;
+      .MuiPaper-root {
+        background: transparent !important;
+        // height: 180px;
+        width: 180px;
+      }
+      .MuiCardMedia-img {
+        width: 100%;
+        display: block;
+        -webkit-transition: 800ms;
+        -o-transition: 800ms;
+        transition: 800ms;
+        position: relative;
+        border-radius: 5px;
+      }
+
+      .song-name {
+        // width: 345px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: "Roboto", sans-serif;
+        color: $whiteFirstLayer;
+        padding: 10px 0 5px;
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .year {
+        font-family: "Roboto", sans-serif;
+        color: rgba($whiteFirstLayer, 0.4);
+        // padding: 10px 0 5px;
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .hover-overlay,
+      .overlay {
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 0.5rem;
+        height: 190px !important;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        -webkit-transition: 800ms;
+        -o-transition: 800ms;
+        transition: 800ms;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+      }
+      .overlay {
+        background: rgba(0, 0, 0, 0);
+        opacity: 1;
+      }
+      .parent {
+        height: 180px;
+        width: 180px;
+      }
+      .parent:hover .hover-overlay {
+        opacity: 1;
+      }
+    }
+  }
+  @media (max-width: 1200px) {
+    .artist-page {
+      min-height: 40vh !important;
+      background-size: 100vw 40vh !important;
+      .header {
+        top: 27vh !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .songs {
+    .song {
+      .song-thumbnail {
+        flex: 0 0 10% !important;
+        max-width: 10% !important;
+      }
+      .song-artists,
+      .song-album {
+        display: none !important;
+      }
+      .song-details-mob {
+        display: flex;
+        .song-artists-mob,
+        .song-album-mob {
+          display: flex !important;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          //   width: 100%;
+          color: rgba($whiteSecondLayer, 0.6);
+          .song-artist {
+            color: rgba($whiteSecondLayer, 0.6);
+            &::after {
+              content: ", \00a0";
+            }
+            &:last-of-type {
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              &::after {
+                content: "" !important;
+              }
+            }
+          }
+        }
+        .song-album-mob {
+          &::before {
+            content: "\00a0•\00a0" !important;
+          }
+        }
+      }
+      .song-title {
+        flex: 0 0 80% !important;
+        max-width: 80% !important;
+      }
+      .more {
+        flex: 0 0 10%;
+        max-width: 10%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .artist-page {
+    min-height: 35vh !important;
+    background-size: 100vw 35vh !important;
+    .header {
+      top: 18vh !important;
+    }
+  }
+  .content-area {
+    .songs {
+      .song {
+        .moreMenu {
+          .menuBody {
+            top: 0;
+            left: -150px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .songs {
+    .song {
+      .song-thumbnail {
+        flex: 0 0 15% !important;
+        max-width: 15% !important;
+      }
+      .song-title {
+        flex: 0 0 75% !important;
+        max-width: 75% !important;
+      }
+    }
+  }
+  .artist-page {
+    min-height: 25vh !important;
+    background-size: 100vw 25vh !important;
+    .header {
+      top: 13vh !important;
+      .description {
+        display: none !important;
+      }
+    }
+  }
+}

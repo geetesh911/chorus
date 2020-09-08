@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.searchResults {
+  margin: 100px 0;
+  overflow: hidden;
+  .heading {
+    font-size: 25px;
+    font-family: "YtSans", sans-serif;
+    color: rgba($whiteFirstLayer, 1);
+    margin-bottom: 10px;
+  }
+  section {
+    margin-top: 50px;
+    &:first-of-type {
+      margin-top: 0px;
+    }
+  }
+  .loader {
+    text-align: center;
+    height: calc(100vh - 250px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-header-left,
+  .search-header-right {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    width: 21.5%;
+    height: 70px;
+    z-index: 9;
+    box-shadow: none !important;
+  }
+  .search-header-right {
+    left: auto;
+    right: 0;
+  }
+  .search-header {
+    position: fixed;
+    top: 64px;
+    padding: 10px;
+    height: 70px;
+    width: 59.45%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    .filterButtons {
+      background-color: transparent;
+      border: 1px solid rgba($whiteFirstLayer, 1);
+      margin-right: 10px;
+      color: rgba($whiteFirstLayer, 1);
+      border-radius: 50px;
+      padding: 8px 15px;
+      height: 40px;
+    }
+    .active {
+      background: rgba($whiteFirstLayer, 1);
+      color: $backgroundColor;
+    }
+    .clearFilter {
+      padding: 8px 9px;
+      border-radius: 50%;
+      svg {
+        height: 0.8em;
+        width: 0.8em;
+      }
+    }
+  }
+  .showAll {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba($whiteFirstLayer, 0.6);
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  .searchItem {
+    position: relative;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba($whiteFirstLayer, 0.1);
+    &:hover {
+      .thumbnail {
+        .thumbnail-overlay {
+          opacity: 1;
+        }
+      }
+    }
+    .thumbnail {
+      flex: 0 0 12%;
+      max-width: 12%;
+      cursor: pointer;
+      img {
+        height: 56px;
+        width: 56px;
+        border-radius: 3px;
+      }
+      .thumbnail-overlay {
+        opacity: 0;
+        position: absolute;
+        top: 10px;
+        width: 56px;
+        height: 56px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        background: rgba($darkColor, 0.7);
+        color: rgba($whiteFirstLayer, 1);
+        svg {
+          margin: 0 auto;
+          height: 1em;
+        }
+      }
+      .volume-overlay,
+      .paused-overlay {
+        opacity: 1;
+      }
+    }
+    .details {
+      flex: 0 0 80%;
+      max-width: 80%;
+      position: relative;
+      .title {
+        color: $whiteFirstLayer;
+        font-weight: 500;
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .bottom-details {
+        display: flex;
+        font-weight: 400;
+        .artists {
+          display: flex;
+          position: relative;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          height: 100%;
+          -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+          will-change: transform;
+          flex-wrap: nowrap;
+          &::before {
+            content: "Song • \00a0";
+            color: rgba($whiteFirstLayer, 0.6);
+          }
+          .artist {
+            color: rgba($whiteFirstLayer, 0.6);
+            &::after {
+              content: "&";
+              margin: 0 3px;
+            }
+            &:last-of-type {
+              &::after {
+                content: "" !important;
+                margin: 0px;
+              }
+            }
+          }
+        }
+        .duration,
+        .album {
+          color: rgba($whiteFirstLayer, 0.6);
+          // position: absolute;
+          // right: 10px;
+
+          &::before {
+            content: "\00a0•\00a0";
+          }
+        }
+        .album {
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+
+    .more {
+      display: flex;
+      color: rgba($whiteFirstLayer, 1);
+      cursor: pointer;
+      position: relative;
+      // right: 20px;
+      flex: 0 0 5%;
+      max-width: 5%;
+    }
+    .moreMenu {
+      .menuButton {
+        color: rgba($whiteFirstLayer, 1);
+      }
+      .moreList {
+        background: rgba($darkColor, 1);
+      }
+      .menuBody {
+        position: absolute;
+        display: none;
+        padding: 10px 0;
+        left: -50px;
+        width: max-content;
+        border-radius: 5px;
+        // width: 200px;
+        background: rgba($darkColor, 1);
+        color: rgba($whiteFirstLayer, 0.6);
+        z-index: 8;
+        ul {
+          padding: 0;
+          margin-bottom: 0;
+          li {
+            span {
+              margin-right: 10px;
+            }
+            list-style: none;
+            padding: 10px 20px;
+            &:hover {
+              background-color: rgba($darkBackgroundColor, 1);
+            }
+          }
+        }
+      }
+    }
+    // .details:hover + .more {
+    //   display: flex;
+    // }
+  }
+  .albums {
+    .details {
+      .bottom-details {
+        .type {
+          color: rgba($whiteFirstLayer, 0.6);
+          &::after {
+            content: "\00a0•\00a0";
+          }
+        }
+        .year {
+          color: rgba($whiteFirstLayer, 0.6);
+          &::before {
+            content: "\00a0•\00a0";
+          }
+        }
+        .artists {
+          &::before {
+            content: "";
+          }
+        }
+      }
+    }
+  }
+  .artists-main {
+    .thumbnail {
+      img {
+        border-radius: 50%;
+      }
+      .thumbnail-overlay {
+        border-radius: 50%;
+      }
+    }
+    .details {
+      .bottom-details {
+        .type {
+          color: rgba($whiteFirstLayer, 0.6);
+          &::before {
+            content: "Artist";
+          }
+        }
+      }
+    }
+  }
+  .playlists {
+    .details {
+      .bottom-details {
+        .itemCount {
+          color: rgba($whiteFirstLayer, 0.6);
+          &::before {
+            content: "Playlist •\00a0";
+          }
+          &::after {
+            content: " songs";
+          }
+        }
+      }
+    }
+  }
+  .active {
+    background: $lightDarkColor;
+  }
+}
+.shareModal {
+  .MuiPaper-root {
+    background-color: rgba($lightDarkColor, 1);
+    padding: 0 20px 20px;
+  }
+  .left-scroll,
+  .right-scroll {
+    color: $whiteFirstLayer;
+    cursor: pointer;
+    background: $lightestDarkColor;
+    padding: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    .MuiSvgIcon-root {
+      height: 0.8em;
+      width: 0.8em;
+    }
+  }
+  .right-scroll {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    top: 39%;
+  }
+  .left-scroll {
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    top: 39%;
+  }
+  .modalTitle {
+    background-color: rgba($lightDarkColor, 1);
+    color: rgba($whiteFirstLayer, 1);
+    padding: 16px 0;
+    h2 {
+      display: flex;
+      p {
+        margin: 0;
+      }
+    }
+    button {
+      background: none;
+      border: none;
+      outline: none;
+      color: rgba($whiteFirstLayer, 1);
+      order: 2;
+      margin-left: auto;
+    }
+    // border-bottom: 1px solid rgba($whiteFirstLayer, 1);
+  }
+  .modalContent {
+    background-color: rgba($lightDarkColor, 1);
+    position: relative;
+    padding: 10px 0px;
+    margin: 10px 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 100%;
+    transform: scale(0.98);
+    will-change: transform;
+    flex-wrap: nowrap;
+  }
+  .link {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: rgba($darkColor, 1);
+    color: rgba($whiteFirstLayer, 0.6);
+    display: flex;
+    input {
+      border: none;
+      width: 60%;
+      color: rgba($whiteFirstLayer, 0.6);
+      background-color: rgba($darkColor, 1);
+      &:focus {
+        border: none;
+        outline: none;
+      }
+      &:active {
+        border: none;
+        outline: none;
+      }
+    }
+    span {
+      order: 2;
+      margin-left: auto;
+      button {
+        background: none;
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+        color: #3ea6ff;
+      }
+    }
+  }
+  .buttonArea {
+    display: flex;
+    .singleButton {
+      margin-right: 15px;
+      text-align: center;
+      .modalShareButton {
+        display: block;
+        border-radius: 50%;
+        svg {
+          border-radius: 50%;
+        }
+      }
+      .name {
+        margin-top: 5px;
+        display: block;
+        color: rgba($whiteFirstLayer, 1);
+        font-family: "Roboto", sans-serif;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .searchResults {
+    margin-top: 100px;
+    .searchItem {
+      .thumbnail {
+        flex: 0 0 16% !important;
+        max-width: 16% !important;
+      }
+      .details {
+        flex: 0 0 79% !important;
+        max-width: 79% !important;
+      }
+      .more {
+        .moreMenu {
+          .menuBody {
+            left: -120px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .searchResults {
+    margin-top: 80px !important;
+    .search-header-left,
+    .search-header-right {
+      display: none !important;
+    }
+    .search-header {
+      width: 100%;
+    }
+    .searchItem {
+      .thumbnail {
+        flex: 0 0 11% !important;
+        max-width: 11% !important;
+      }
+      .details {
+        flex: 0 0 84% !important;
+        max-width: 84% !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .searchResults {
+    margin-top: 10px;
+    .searchItem {
+      .thumbnail {
+        flex: 0 0 20% !important;
+        max-width: 20% !important;
+      }
+      .details {
+        flex: 0 0 70% !important;
+        max-width: 70% !important;
+      }
+      .more {
+        flex: 0 0 10% !important;
+        max-width: 10% !important;
+
+        .moreMenu {
+          .menuBody {
+            left: -160px;
+            top: -20px;
+          }
+        }
+      }
+    }
+  }
+  .shareModal {
+    .left-scroll,
+    .right-scroll {
+      display: flex !important;
+    }
+  }
+}

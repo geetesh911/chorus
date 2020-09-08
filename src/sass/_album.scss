@@ -1,0 +1,49 @@
+.album-page {
+  .details {
+    .sub-title {
+      .header-artist {
+        &::before {
+          content: " &\00a0";
+        }
+        &::after {
+          content: " more";
+        }
+        &:first-of-type {
+          &::after {
+            content: " ";
+          }
+          &::before {
+            content: " ";
+          }
+        }
+      }
+      .year {
+        color: rgba($whiteFirstLayer, 0.6);
+        &::before {
+          content: " •\00a0";
+        }
+      }
+    }
+  }
+  .tracks {
+    .track {
+      .track-thumbnail {
+        .index {
+          width: 32px;
+          text-align: center;
+        }
+      }
+
+      &:hover {
+        .track-thumbnail {
+          .thumbnail-overlay {
+            background: transparent;
+          }
+          .index {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

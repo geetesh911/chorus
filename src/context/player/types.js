@@ -1,0 +1,20 @@
+export const SET_CURRENT_SONG = "SET_CURRENT_SONG";
+export const TOGGLE_RANDOM = "TOGGLE_RANDOM";
+export const TOGGLE_REPEAT = "TOGGLE_OPTIONS";
+export const TOGGLE_PLAYING = "TOGGLE_PLAYING";
+
+export const SET_CURRENT_SONG_STATE = "SET_CURRENT_SONG_STATE";
+export const PAUSE_AND_PLAY_NEXT = "PAUSE_AND_PLAY_NEXT";
+
+export const SET_SONGS = "SET_SONGS";
+export const SET_MSG = "SET_MSG";
+export const CLEAR_MSG = "CLEAR_MSG";
+export const SET_SEVERITY = "SET_SEVERITY";
+
+export const ADD_TO_QUEUE = "ADD_TO_QUEUE";
+export const PLAY_NEXT = "PLAY_NEXT";
+export const SHARE = "SHARE";
+export const CLOSE_SHARE_MODAL = "CLOSE_SHARE_MODAL";
+
+export const CALL_MORE_TRACKS = "CALL_MORE_TRACKS";
+export const CALL_MORE_TRACKS_FAILED = "CALL_MORE_TRACKS_FAILED";

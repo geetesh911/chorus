@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css?family=Carter+One|Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  height: 200vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+}
+
+.music-home-main-section {
+  // min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin-top: -64px;
+  margin-bottom: 100px;
+  padding-bottom: 70px;
+  background-color: $backgroundColor;
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 1) 8.98%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    // url("https://lh3.googleusercontent.com/r86HeNe58tNuKzKBrPR6FkloKcQRtoJjU_sOed25Rs-EZG7bDAhg4B-hOgtqmXfIFUhW8U1g=w2880-h1613-l90-rj");
+      // url("https://i.ibb.co/p3nmHj7/music-back.jpg");
+      url("https://www.kri8thm.in/html/listen/theme/assets/images/banner/home.jpg");
+  background-size: auto 40vh;
+  background-repeat: no-repeat;
+  // background-size: cover;
+  background-position: center top;
+  // background-attachment: fixed;
+  width: auto;
+  min-height: 30vh;
+  position: relative;
+  .module {
+    margin-top: 120px;
+  }
+  > .module::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: inherit;
+    background-attachment: fixed;
+    //   -webkit-filter: blur(12px);
+    //   filter: blur(12px);
+    //   box-shadow: inset 0 -100px 35px -45px $backgroundColor;
+    // mask: linear-gradient(to bottom, white 40%, transparent);
+    //   transform: scale(2) translateY(20px);
+    background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 1) 8.98%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  .section-heading {
+    color: $whiteFirstLayer;
+    font-size: 30px;
+    font-family: "YtSans", sans-serif;
+  }
+  .section-content {
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    flex-wrap: wrap;
+    .MuiPaper-root {
+      background: transparent !important;
+    }
+    .MuiCardMedia-img {
+      width: 100%;
+      display: block;
+      -webkit-transition: 800ms;
+      -o-transition: 800ms;
+      transition: 800ms;
+      position: relative;
+    }
+
+    .song-name {
+      width: 345px !important;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: "Roboto", sans-serif;
+      color: $whiteFirstLayer;
+      padding: 10px 0 5px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+  .hover-overlay,
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.5rem;
+    height: 190px !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: 800ms;
+    -o-transition: 800ms;
+    transition: 800ms;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  .overlay {
+    background: rgba(0, 0, 0, 0);
+    opacity: 1;
+  }
+  .play,
+  .play-playlist {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .MuiSvgIcon-root {
+      margin: auto;
+      width: 2em;
+      height: 2em;
+      color: $whiteFirstLayer;
+    }
+  }
+  .play-playlist {
+    height: 100%;
+    max-width: 190px;
+    max-height: 190px;
+  }
+  .play {
+    opacity: 0;
+    -webkit-transition: 800ms;
+    -o-transition: 800ms;
+    transition: 800ms;
+  }
+
+  .parent:hover .hover-overlay {
+    opacity: 1;
+  }
+  .parent:hover .play {
+    opacity: 1;
+  }
+  .home-section {
+    position: relative;
+    margin-top: 70px;
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+  .trending-card {
+    flex: 0 0 48%;
+    max-width: 48%;
+    margin: 5px 0;
+    img {
+      max-height: 270px;
+    }
+  }
+  .space {
+    flex: 0 0 1%;
+    max-width: 1%;
+  }
+  .left-scroll,
+  .right-scroll {
+    color: $backgroundColor;
+    cursor: pointer;
+    background: $whiteFirstLayer;
+    padding: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    .MuiSvgIcon-root {
+      height: 0.8em;
+      width: 0.8em;
+    }
+  }
+  .right-scroll {
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    top: 45%;
+  }
+  .left-scroll {
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+    top: 45%;
+  }
+  .playlist {
+    .MuiCardMedia-img {
+      max-width: 190px !important;
+      max-height: 190px !important;
+      border-radius: 10px;
+    }
+    .song-name {
+      width: 190px !important;
+      padding-bottom: 0;
+    }
+    .type {
+      font-family: "Roboto", sans-serif;
+      color: $whiteFourthLayer;
+      padding: 0px 0;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .MuiPaper-root {
+      width: 190px;
+    }
+  }
+  .playlist-content {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 100%;
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    will-change: transform;
+    flex-wrap: nowrap;
+  }
+}
+
+.music {
+  background-color: $backgroundColor;
+}
+
+@media (max-width: 768px) {
+  .MuiAppBar-colorPrimary {
+    .input-group {
+      width: 100%;
+    }
+  }
+  .music-home-main-section {
+    .trending-card {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      img {
+        max-height: 400px !important;
+      }
+    }
+    .play {
+      height: 100% !important;
+    }
+  }
+
+  // .right-scroll,
+  // .left-scroll {
+  //   display: none !important;
+  // }
+}
+.music-trending {
+  background: none;
+  margin-top: 30px;
+  .overlay,
+  .hover-overlay {
+    height: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .music-home-main-section {
+    .trending-card {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      img {
+        max-height: 200px !important;
+      }
+    }
+    .play {
+      height: 100% !important;
+    }
+  }
+}
