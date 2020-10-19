@@ -318,12 +318,18 @@ const PlayerState = (props) => {
 
   const playSearchedTrack = async (track) => {
     try {
-      const relatedVideos = await axios.get(
-        `${API_URL}/api/get_related_tracks/?videoId=${track.videoId}`
-      );
-      const queueItems = relatedVideos.data;
+      let queueItems = [];
+      try {
+        const relatedVideos = await axios.get(
+          `${API_URL}/api/get_related_tracks/?videoId=${track.videoId}`
+        );
+        queueItems = relatedVideos.data;
 
-      queueItems[0].audio = await getSong(queueItems[0].videoId);
+        queueItems[0].audio = await getSong(queueItems[0].videoId);
+      } catch (err) {
+        queueItems[0] = track;
+        queueItems[0].audio = await getSong(queueItems[0].videoId);
+      }
 
       dispatch({ type: PLAY_SEARCHED_TRACK, payload: queueItems });
     } catch (err) {
