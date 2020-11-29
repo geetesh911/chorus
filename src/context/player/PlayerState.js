@@ -36,7 +36,8 @@ import {
 } from "../musicTypes";
 import _ from "lodash";
 
-const NODE_API_URL = "https://chorusmusic-api.herokuapp.com";
+const NODE_API_URL = "http://localhost:1000";
+// const NODE_API_URL = "https://chorusmusic-api.herokuapp.com";
 const API_URL = "https://flick-py-api.herokuapp.com";
 
 const PlayerState = (props) => {
@@ -557,7 +558,7 @@ const PlayerState = (props) => {
 
   const addToQueue = (track) => {
     if (state.songs.length > 0) {
-      if (typeof track.artists !== "string") {
+      if (typeof track.artists !== "string" && track.artists) {
         let artistsText = "";
         for (let i = 0; i < track.artists.length; i++) {
           if (i === track.artists.length - 1)
@@ -574,8 +575,9 @@ const PlayerState = (props) => {
   };
 
   const playNext = (track) => {
+    console.log(track);
     if (state.songs.length > 0) {
-      if (typeof track.artists !== "string") {
+      if (typeof track.artists !== "string" && track.artists) {
         let artistsText = "";
         for (let i = 0; i < track.artists.length; i++) {
           if (i === track.artists.length - 1)
