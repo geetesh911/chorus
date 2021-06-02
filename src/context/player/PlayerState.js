@@ -36,8 +36,8 @@ import {
 } from "../musicTypes";
 import _ from "lodash";
 
-const NODE_API_URL = "http://localhost:1000";
-// const NODE_API_URL = "https://chorusmusic-api.herokuapp.com";
+// const NODE_API_URL = "http://localhost:1000";
+const NODE_API_URL = "https://chorusmusic-api.herokuapp.com";
 const API_URL = "https://flick-py-api.herokuapp.com";
 
 const PlayerState = (props) => {
